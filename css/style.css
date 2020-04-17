@@ -91,16 +91,11 @@ header {
     margin-right: 30px;
     box-shadow: gray 0 0 10px;
     border-radius: 20px;
+    padding-bottom: 15px;
 }
 
 .noticia img, .noticia iframe {
     width: 90%;
-    padding: 5%;
-}
-
-.noticia iframe {
-    width: 90%;
-    height: 40%;
     padding: 5%;
 }
 
@@ -124,17 +119,15 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-    justify-content: space-between;
     box-shadow: #7d7d7d -1px -2px 10px;
 }
 
 /* -------------------------------------------------------------------------------------------- 
 CSS SOBRE */
-
 .linha {
     display: flex;
     justify-content: space-between;
-    margin: 40px 0 40px 0;
+    margin: 40px 0 0 0;
 }
 
 .col-1 {
@@ -149,6 +142,7 @@ CSS SOBRE */
     height: 150px;
     border-radius: 80px ;
     display: block;
+    border: 5px solid gray;
 }
 
 .linkedin {
@@ -159,6 +153,7 @@ CSS SOBRE */
 }
 
 .col-2 {
+    display: block;
     width: 90%;
     margin-bottom: 182px;
 }
@@ -176,20 +171,18 @@ CSS SOBRE */
     font-family: 'Oswald', sans-serif;
     padding: 5px 15px;
     color: #431216;
-    width: 90%;
+    width: 85%;
+    font-size: initial
 }
 
 .fontes {
     text-align: center;
-    margin: 25px 0 232px 0;
+    margin: 25px 0 50px 0;
 }
 
 .fontes h3, a {
     color: #431216;;
-    margin: 25px;
 }
-
-
 
 /* Responsividade para navbar */
 
