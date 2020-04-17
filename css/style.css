@@ -172,16 +172,19 @@ CSS SOBRE */
     padding: 5px 15px;
     color: #431216;
     width: 85%;
-    font-size: initial
+    font-size: large;
+    font-style: italic;
+    text-align: justify;
 }
 
 .fontes {
     text-align: center;
-    margin: 25px 0 50px 0;
+    margin: 25px;
 }
 
-.fontes h3, a {
-    color: #431216;;
+.fontes h3, .fontes a {
+    color: #431216;
+    padding: 20px;
 }
 
 /* Responsividade para navbar */
